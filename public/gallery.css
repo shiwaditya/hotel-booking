@@ -1,0 +1,38 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+
+.gallery-item {
+    margin: 10px;
+    width: 400px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+
+.tabs {
+    text-align: right;
+}
+
+.tab {
+    margin-left: 20px;
+}
