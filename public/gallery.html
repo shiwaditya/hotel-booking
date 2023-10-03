@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
-    <link rel="stylesheet" href="./gallery.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Reservation</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="tabs">
-        <a href="./about.html" class="tab">About</a>
-        <a href="./gallery.html" class="tab">Gallery</a>
-        <a href="./contact.html" class="tab">Contact Us</a>
-    </div>
-    
-    <ul class="gallery">
-        
-        <li class="gallery-item">
-            <img src="../assets/1.jpg" alt="Image 1">
-        </li>
-        <li class="gallery-item">
-            <img src="../assets/4.jpg" alt="Image 2">
-        </li>
-        <li class="gallery-item">
-            <img src="../assets/5.jpg" alt="Image 3">
-        </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Hotel Reservations</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact Us</a>
+      </li>
     </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="../assets/eddi-aguirre-ZAVHbpOn4Jk-unsplash.jpg" alt="Image 1" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Deluxe Room</h5>
+          <p class="card-text">Spacious and luxurious room with a stunning view.</p>
+          <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="../assets/rhema-kallianpur-jbJ-_hw2yag-unsplash.jpg" alt="Image 2" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Luxury Suite</h5>
+          <p class="card-text">Experience ultimate luxury with our suite.</p>
+          <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="../assets/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="Image 3" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Family Villa</h5>
+          <p class="card-text">Ideal for a family getaway with spacious rooms.</p>
+          <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
